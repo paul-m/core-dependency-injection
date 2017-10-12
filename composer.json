@@ -12,7 +12,11 @@
   },
   "require": {
     "php": ">=5.5.9",
-    "symfony/dependency-injection": "^2.8"
+    "drupal/core-utility": "~8.4.0",
+    "symfony/dependency-injection": "~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=4.8.35 <5"
   },
   "suggest": {
     "symfony/expression-language": "For using expressions in service container configuration"
